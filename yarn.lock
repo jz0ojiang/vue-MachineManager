@@ -1767,6 +1767,13 @@ async-limiter@~1.0.0:
   resolved "https://registry.npm.taobao.org/async-limiter/download/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha1-3TeelPDbgxCwgpH51kwyCXZmF/0=
 
+async-validator@~1.8.1:
+  version "1.8.5"
+  resolved "https://registry.nlark.com/async-validator/download/async-validator-1.8.5.tgz#dc3e08ec1fd0dddb67e60842f02c0cd1cec6d7f0"
+  integrity sha1-3D4I7B/Q3dtn5ghC8CwM0c7G1/A=
+  dependencies:
+    babel-runtime "6.x"
+
 async@^2.6.2:
   version "2.6.3"
   resolved "https://registry.nlark.com/async/download/async-2.6.3.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fasync%2Fdownload%2Fasync-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
@@ -1806,6 +1813,19 @@ aws4@^1.8.0:
   version "1.11.0"
   resolved "https://registry.npm.taobao.org/aws4/download/aws4-1.11.0.tgz?cache=0&sync_timestamp=1604101230105&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faws4%2Fdownload%2Faws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha1-1h9G2DslGSUOJ4Ta9bCUeai0HFk=
+
+axios@^0.18.0:
+  version "0.18.1"
+  resolved "https://registry.npm.taobao.org/axios/download/axios-0.18.1.tgz?cache=0&sync_timestamp=1608609188013&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Faxios%2Fdownload%2Faxios-0.18.1.tgz#ff3f0de2e7b5d180e757ad98000f1081b87bcea3"
+  integrity sha1-/z8N4ue10YDnV62YAA8Qgbh7zqM=
+  dependencies:
+    follow-redirects "1.5.10"
+    is-buffer "^2.0.2"
+
+babel-helper-vue-jsx-merge-props@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.nlark.com/babel-helper-vue-jsx-merge-props/download/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
+  integrity sha1-Iq69OzOQIyjlEyk6jkmSs4T58bY=
 
 babel-loader@^8.1.0:
   version "8.2.2"
@@ -1847,6 +1867,14 @@ babel-plugin-polyfill-regenerator@^0.2.2:
   integrity sha1-sxDI1kKsraNIwfo7Pmzg6FG+4Hc=
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.2.2"
+
+babel-runtime@6.x:
+  version "6.26.0"
+  resolved "https://registry.nlark.com/babel-runtime/download/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  integrity sha1-llxwWGaOgrVde/4E/yM3vItWR/4=
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -2622,6 +2650,11 @@ core-js-compat@^3.14.0, core-js-compat@^3.16.0, core-js-compat@^3.6.5:
     browserslist "^4.16.8"
     semver "7.0.0"
 
+core-js@^2.4.0:
+  version "2.6.12"
+  resolved "https://registry.nlark.com/core-js/download/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha1-2TM9+nsGXjR8xWgiGdb2kIWcwuw=
+
 core-js@^3.6.5:
   version "3.16.3"
   resolved "https://registry.nlark.com/core-js/download/core-js-3.16.3.tgz#1f2d43c51a9ed014cc6c83440af14697ae4b75f2"
@@ -2898,6 +2931,13 @@ debug@2.6.9, debug@^2.2.0, debug@^2.3.3:
   dependencies:
     ms "2.0.0"
 
+debug@=3.1.0:
+  version "3.1.0"
+  resolved "https://registry.nlark.com/debug/download/debug-3.1.0.tgz?cache=0&sync_timestamp=1625374675284&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdebug%2Fdownload%2Fdebug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
+  integrity sha1-W7WgZyYotkFJVmuhaBnmFRjGcmE=
+  dependencies:
+    ms "2.0.0"
+
 debug@^3.1.1, debug@^3.2.6:
   version "3.2.7"
   resolved "https://registry.nlark.com/debug/download/debug-3.2.7.tgz?cache=0&sync_timestamp=1625374675284&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdebug%2Fdownload%2Fdebug-3.2.7.tgz#72580b7e9145fb39b6676f9c5e5fb100b934179a"
@@ -2934,7 +2974,7 @@ deep-equal@^1.0.1:
     object-keys "^1.1.1"
     regexp.prototype.flags "^1.2.0"
 
-deepmerge@^1.5.2:
+deepmerge@^1.2.0, deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://registry.nlark.com/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
@@ -3189,6 +3229,18 @@ electron-to-chromium@^1.3.811:
   version "1.3.817"
   resolved "https://registry.nlark.com/electron-to-chromium/download/electron-to-chromium-1.3.817.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Felectron-to-chromium%2Fdownload%2Felectron-to-chromium-1.3.817.tgz#911b4775b5d9fa0c4729d4694adc81de85d8d8f6"
   integrity sha1-kRtHdbXZ+gxHKdRpStyB3oXY2PY=
+
+element-ui@^2.4.5:
+  version "2.15.5"
+  resolved "https://registry.nlark.com/element-ui/download/element-ui-2.15.5.tgz?cache=0&sync_timestamp=1628057164000&other_urls=https%3A%2F%2Fregistry.nlark.com%2Felement-ui%2Fdownload%2Felement-ui-2.15.5.tgz#dfb376dc5cd60adab21c991bd4fac3e67e5300f4"
+  integrity sha1-37N23FzWCtqyHJkb1PrD5n5TAPQ=
+  dependencies:
+    async-validator "~1.8.1"
+    babel-helper-vue-jsx-merge-props "^2.0.0"
+    deepmerge "^1.2.0"
+    normalize-wheel "^1.0.1"
+    resize-observer-polyfill "^1.5.0"
+    throttle-debounce "^1.0.1"
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -3631,6 +3683,13 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
+
+follow-redirects@1.5.10:
+  version "1.5.10"
+  resolved "https://registry.nlark.com/follow-redirects/download/follow-redirects-1.5.10.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ffollow-redirects%2Fdownload%2Ffollow-redirects-1.5.10.tgz#7b7a9f9aea2fdff36786a94ff643ed07f4ff5e2a"
+  integrity sha1-e3qfmuov3/NnhqlP9kPtB/T/Xio=
+  dependencies:
+    debug "=3.1.0"
 
 follow-redirects@^1.0.0:
   version "1.14.2"
@@ -4371,6 +4430,11 @@ is-buffer@^1.1.5:
   resolved "https://registry.nlark.com/is-buffer/download/is-buffer-1.1.6.tgz#efaa2ea9daa0d7ab2ea13a97b2b8ad51fefbe8be"
   integrity sha1-76ouqdqg16suoTqXsritUf776L4=
 
+is-buffer@^2.0.2:
+  version "2.0.5"
+  resolved "https://registry.nlark.com/is-buffer/download/is-buffer-2.0.5.tgz#ebc252e400d22ff8d77fa09888821a24a658c191"
+  integrity sha1-68JS5ADSL/jXf6CYiIIaJKZYwZE=
+
 is-callable@^1.1.4, is-callable@^1.2.3:
   version "1.2.4"
   resolved "https://registry.nlark.com/is-callable/download/is-callable-1.2.4.tgz#47301d58dd0259407865547853df6d61fe471945"
@@ -4641,6 +4705,11 @@ javascript-stringify@^2.0.1:
   resolved "https://registry.nlark.com/javascript-stringify/download/javascript-stringify-2.1.0.tgz#27c76539be14d8bd128219a2d731b09337904e79"
   integrity sha1-J8dlOb4U2L0Sghmi1zGwkzeQTnk=
 
+js-base64@^3.6.1:
+  version "3.6.1"
+  resolved "https://registry.nlark.com/js-base64/download/js-base64-3.6.1.tgz#555aae398b74694b4037af1f8a5a6209d170efbe"
+  integrity sha1-VVquOYt0aUtAN68filpiCdFw774=
+
 js-message@1.0.7:
   version "1.0.7"
   resolved "https://registry.nlark.com/js-message/download/js-message-1.0.7.tgz#fbddd053c7a47021871bb8b2c95397cc17c20e47"
@@ -4652,6 +4721,11 @@ js-queue@2.0.2:
   integrity sha1-C+WQM4+QOzbHPTPDGIOoIUEs1II=
   dependencies:
     easy-stack "^1.0.1"
+
+js-sha256@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.npm.taobao.org/js-sha256/download/js-sha256-0.9.0.tgz#0b89ac166583e91ef9123644bd3c5334ce9d0966"
+  integrity sha1-C4msFmWD6R75EjZEvTxTNM6dCWY=
 
 js-tokens@^4.0.0:
   version "4.0.0"
@@ -5334,6 +5408,11 @@ normalize-url@^3.0.0:
   version "3.3.0"
   resolved "https://registry.nlark.com/normalize-url/download/normalize-url-3.3.0.tgz?cache=0&sync_timestamp=1628689122508&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnormalize-url%2Fdownload%2Fnormalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha1-suHE3E98bVd0PfczpPWXjRhlBVk=
+
+normalize-wheel@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/normalize-wheel/download/normalize-wheel-1.0.1.tgz#aec886affdb045070d856447df62ecf86146ec45"
+  integrity sha1-rsiGr/2wRQcNhWRH32Ls+GFG7EU=
 
 npm-run-path@^2.0.0:
   version "2.0.2"
@@ -6362,6 +6441,11 @@ regenerate@^1.4.0:
   resolved "https://registry.nlark.com/regenerate/download/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha1-uTRtiCfo9aMve6KWN9OYtpAUhIo=
 
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "https://registry.nlark.com/regenerator-runtime/download/regenerator-runtime-0.11.1.tgz?cache=0&sync_timestamp=1626993001371&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+  integrity sha1-vgWtf5v30i4Fb5cmzuUBf78Z4uk=
+
 regenerator-runtime@^0.13.4:
   version "0.13.9"
   resolved "https://registry.nlark.com/regenerator-runtime/download/regenerator-runtime-0.13.9.tgz?cache=0&sync_timestamp=1626993001371&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fregenerator-runtime%2Fdownload%2Fregenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
@@ -6485,6 +6569,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npm.taobao.org/requires-port/download/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
+
+resize-observer-polyfill@^1.5.0:
+  version "1.5.1"
+  resolved "https://registry.npm.taobao.org/resize-observer-polyfill/download/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha1-DpAg3T0hAkRY1OvSfiPkAmmBBGQ=
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -7232,6 +7321,11 @@ thread-loader@^2.1.3:
     loader-utils "^1.1.0"
     neo-async "^2.6.0"
 
+throttle-debounce@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/throttle-debounce/download/throttle-debounce-1.1.0.tgz?cache=0&sync_timestamp=1604313880785&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fthrottle-debounce%2Fdownload%2Fthrottle-debounce-1.1.0.tgz#51853da37be68a155cb6e827b3514a3c422e89cd"
+  integrity sha1-UYU9o3vmihVctugns1FKPEIuic0=
+
 through2@^2.0.0:
   version "2.0.5"
   resolved "https://registry.npm.taobao.org/through2/download/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
@@ -7256,6 +7350,11 @@ timsort@^0.3.0:
   version "0.3.0"
   resolved "https://registry.nlark.com/timsort/download/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
+
+tiny-cookie@^1.0:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/tiny-cookie/download/tiny-cookie-1.0.1.tgz#753786079c642a3c3d0b2accad600f8de119ac2a"
+  integrity sha1-dTeGB5xkKjw9CyrMrWAPjeEZrCo=
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
@@ -7595,6 +7694,28 @@ vm-browserify@^1.0.1:
   version "1.1.2"
   resolved "https://registry.npm.taobao.org/vm-browserify/download/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha1-eGQcSIuObKkadfUR56OzKobl3aA=
+
+vue-cli-plugin-axios@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.npm.taobao.org/vue-cli-plugin-axios/download/vue-cli-plugin-axios-0.0.4.tgz#29d4eb48275c7fe15b92e1fd5d95fbe2a966436f"
+  integrity sha1-KdTrSCdcf+FbkuH9XZX74qlmQ28=
+
+vue-cli-plugin-cookie@~0.1.0:
+  version "0.1.0"
+  resolved "https://registry.nlark.com/vue-cli-plugin-cookie/download/vue-cli-plugin-cookie-0.1.0.tgz#9958ff7e2ac2d072ef64524cd5b53e07b5eaeeaf"
+  integrity sha1-mVj/firC0HLvZFJM1bU+B7Xq7q8=
+  dependencies:
+    tiny-cookie "^1.0"
+
+vue-cli-plugin-element@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/vue-cli-plugin-element/download/vue-cli-plugin-element-1.0.1.tgz#34e58fb65b36cf59afaf14f503288e5e578b1554"
+  integrity sha1-NOWPtls2z1mvrxT1AyiOXleLFVQ=
+
+vue-cookies@^1.7.4:
+  version "1.7.4"
+  resolved "https://registry.npm.taobao.org/vue-cookies/download/vue-cookies-1.7.4.tgz#d241d0a0431da0795837651d10b4d73e7c8d3e8d"
+  integrity sha1-0kHQoEMdoHlYN2UdELTXPnyNPo0=
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
